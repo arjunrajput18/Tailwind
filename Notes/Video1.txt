@@ -1,0 +1,24 @@
+website : https://tailwindcss.com/
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+cmd:-
+npm install -D tailwindcss postcss autoprefixer
+npm install vite
+npx tailwindcss init
+
+in tailwind.config.js
+  content: ["*"],
+
+package.json
+ "scripts": {
+    "start": "vite"
+  },
+
+Extension
+  Tailwind CSS IntelliSense
+
+
+to strt cmd
+
+npm run start
